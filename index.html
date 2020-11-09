@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <meta charset="UTF-8">
-    <title>Andre Mertes</title>
-</head>
-<body>
-    <header>
+    <head>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+        <meta charset="UTF-8">
+        <title>Andre Mertes</title>
+        <link rel="stylesheet" href="style/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
+    </head>
+    <body>
+        <header id="header">    <!-- Header mit Navigationsleiste -->
+            <div class="container main-menu">
+                <div id="logo"> <!-- Logo -->
+                <!--    <a href="index.html">
+                        <img src="img/logo.png" alt="Andre Mertes" title="Andre Mertes" style="width:50px; height:50px;" />
+                    </a>    -->
+                </div>
+                <nav id="nav-menu-container">   <!-- Navigationsleiste -->
+                    <ul class="nav-menu">
+                        <li><a class="active" href="index.html">Home</a></li>
+                <!--        <li><a href="about.html">&Uuml;ber mich</a></li>    -->
+                        <li class="menu-has-children">
+                            <a class="nav-with-ul" href="WE-Prod">Uni</a>
+                            <ul style="display:none;">
+                                <li><a href="WE-Prod">VL Webentwicklung</a></li>
+                            </ul>
+                        </li>
+                <!--        <li><a href="contact.html">Kontakt</a></li>         -->
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>  <!-- Inhalt der Seite -->
+            <br /><br /><br /><br /><br />
+            <p>Ich habe noch nichts mitzuteilen...</p>
+        </main>
+        <footer>    <!-- Footer mit Impressum und Datenschutzerklärung -->
 
-    </header>
-    <main>
-        Hallo Welt!
-    </main>
-    <footer>
-
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>

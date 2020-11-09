@@ -4,6 +4,7 @@
     <configs>
       <sshConfig authType="PASSWORD" host="ssh.strato.de" id="2ca375ba-674c-448b-8349-c8e9e15abbe4" port="22" nameFormat="DESCRIPTIVE" username="sftp_WE-Prod@andremertes.de" />
       <sshConfig authType="PASSWORD" host="ssh.strato.de" id="30cd70e6-77d1-4102-b676-ff2edb1a77b7" port="22" nameFormat="DESCRIPTIVE" username="sftp_WE-Test@andremertes.de" />
+      <sshConfig authType="PASSWORD" host="ssh.strato.de" id="fe2541c4-e93a-4c68-9775-11f95cc25602" port="22" nameFormat="DESCRIPTIVE" username="andremertes.de" />
     </configs>
   </component>
 </project>

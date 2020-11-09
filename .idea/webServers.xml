@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="40c4bca5-3821-4f2f-8db7-4872fd1a90c4" name="Webentwicklung Lokal" url="http://localhost">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\Andre\Uni\Webentwicklung" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="719ec42d-bdcf-4434-89dd-781239063826" name="WE-Test">
+        <fileTransfer accessType="SFTP" host="ssh.strato.de" port="22" sshConfigId="30cd70e6-77d1-4102-b676-ff2edb1a77b7" sshConfig="sftp_WE-Test@andremertes.de@ssh.strato.de:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0ae5accb-7eec-47ba-b2c9-12727edce3a9" name="WE-Prod">
+        <fileTransfer accessType="SFTP" host="ssh.strato.de" port="22" sshConfigId="2ca375ba-674c-448b-8349-c8e9e15abbe4" sshConfig="sftp_WE-Prod@andremertes.de@ssh.strato.de:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

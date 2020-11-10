@@ -76,7 +76,7 @@ header #toggle:after{
     min-height: 100vh;
     padding: 100px;
     /*background-size: cover;*/
-    background-image: url(img/banner-bg.jpg);
+    /* background-image: url(img/banner-bg.jpg); */
     background-attachment:fixed;
     background-position:right;
     background-repeat:no-repeat;

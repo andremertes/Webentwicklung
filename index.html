@@ -2,38 +2,41 @@
 <html lang="de">
     <head>
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8">
         <title>Andre Mertes</title>
         <link rel="stylesheet" href="style/style.css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
     </head>
     <body>
-        <header id="header">    <!-- Header mit Navigationsleiste -->
-            <div class="container main-menu">
-                <div id="logo"> <!-- Logo -->
-                <!--    <a href="index.html">
-                        <img src="img/logo.png" alt="Andre Mertes" title="Andre Mertes" style="width:50px; height:50px;" />
-                    </a>    -->
-                </div>
-                <nav id="nav-menu-container">   <!-- Navigationsleiste -->
-                    <ul class="nav-menu">
-                        <li><a class="active" href="index.html">Home</a></li>
-                <!--        <li><a href="about.html">&Uuml;ber mich</a></li>    -->
-                        <li class="menu-has-children">
-                            <a class="nav-with-ul" href="WE-Prod">Uni</a>
-                            <ul style="display:none;">
-                                <li><a href="WE-Prod">VL Webentwicklung</a></li>
-                            </ul>
-                        </li>
-                <!--        <li><a href="contact.html">Kontakt</a></li>         -->
-                    </ul>
-                </nav>
+        <section class="banner" id="sec">
+            <header>    <!-- Header mit Logo und Navigationsbutton -->
+                <a href="index.html"><img class="logo" src="img/logo.png" alt="AM" title="Andre Mertes" /></a>
+                <div id="toggle"></div>
+            </header>
+            <div class="content">   <!-- Inhalt -->
+                <h2>Andre Mertes</h2>
+                <p>
+                    B.Ed. Student, Universit&auml;t Trier
+                    <br /><span class="red">Mathematik</span>, <span class="blue">Informatik</span> und <span class="green">Latein</span>
+                </p>
+                <a href="about">Mehr</a>
             </div>
-        </header>
-        <main>  <!-- Inhalt der Seite -->
-            <br /><br /><br /><br /><br />
-            <p>Ich habe noch nichts mitzuteilen...</p>
-        </main>
+            <ul class="sci">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">YouTube</a></li>
+            </ul>
+        </section>
+        <div id="navigation">   <!-- Navigationsleiste -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about">&Uuml;ber mich</a></li>
+                <li><a href="portfolio">Uni</a></li>
+                <li><a href="contact">Kontakt</a></li>
+            </ul>
+        </div>
         <footer>    <!-- Footer mit Impressum und Datenschutzerklärung -->
 
         </footer>

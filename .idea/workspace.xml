@@ -11,7 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="776229a6-35e9-4175-a91d-8015d9602b9c" name="Default Changelist" comment="Hallo Welt">
-      <change beforePath="$PROJECT_DIR$/WE-Prod/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WE-Prod/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604944523853</updated>
-      <workItem from="1604944525621" duration="11755000" />
+      <workItem from="1604944525621" duration="16344000" />
     </task>
     <task id="LOCAL-00001" summary="Hallo Welt">
       <created>1604949353367</created>
@@ -125,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604958554507</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Hallo Welt">
+      <created>1604958836823</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604958836823</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,10 +170,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1604949134731" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604958556369">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604958838212">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604958556369" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604958838212" />
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604950729640">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

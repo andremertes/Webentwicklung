@@ -11,33 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="776229a6-35e9-4175-a91d-8015d9602b9c" name="Default Changelist" comment="Hallo Welt">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WE-Prod/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WE-Test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/banner-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logoRot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604944523853</updated>
-      <workItem from="1604944525621" duration="32755000" />
+      <workItem from="1604944525621" duration="33407000" />
     </task>
     <task id="LOCAL-00001" summary="Hallo Welt">
       <created>1604949353367</created>
@@ -191,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605041092455</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Hallo Welt">
+      <created>1605042272869</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605042272869</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,14 +197,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Hallo Welt" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="358" key="#Deployment" timestamp="1604951485467">
+    <state x="872" y="358" key="#Deployment" timestamp="1605042744765">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="358" key="#Deployment/0.0.2560.1400@0.0.2560.1400" timestamp="1604951485467" />
-    <state x="856" y="345" key="#SSH_Configurations" timestamp="1604950654908">
+    <state x="872" y="358" key="#Deployment/0.0.2560.1400@0.0.2560.1400" timestamp="1605042744765" />
+    <state x="856" y="345" key="#SSH_Configurations" timestamp="1605042739980">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="856" y="345" key="#SSH_Configurations/0.0.2560.1400@0.0.2560.1400" timestamp="1604950654908" />
+    <state x="856" y="345" key="#SSH_Configurations/0.0.2560.1400@0.0.2560.1400" timestamp="1605042739980" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1604949134731">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -229,10 +213,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1531" y="406" key="RollbackChangesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605029975618" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1605041096392">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1605042286225">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605041096392" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605042286225" />
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604950729640">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

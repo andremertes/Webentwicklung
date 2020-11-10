@@ -2,20 +2,6 @@
 <project version="4">
   <component name="PublishConfigData" serverName="Webentwicklung Lokal" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="WE-Prod">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="WE-Test">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="Webentwicklung Lokal">
         <serverdata>
           <mappings>
@@ -23,7 +9,21 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="andremertes.de">
+      <paths name="andre">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="test">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="uni">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />

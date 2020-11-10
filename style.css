@@ -26,10 +26,10 @@ header {
 }
 .banner {
     position: relative;
-    width: 100%;
+    width: 1920px;
     min-height: 100vh;
     padding: 100px;
-    background: url("../img/banner-bg.jpg");
+    background: url("img/banner-bg.jpg");
     background-size: cover;
     display: flex;
     align-items: center;

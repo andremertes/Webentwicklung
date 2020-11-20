@@ -20,7 +20,7 @@
                 <h1>Aufgabenplaner: ToDos (Aktuelles Projekt)</h1>
             </div>
             <div class="row">
-                <div id="sidebar" class="col-2">
+                <div id="sidebar" class="col-md-2">
                     <ul class="nav flex-column">
                         <li class="nav-item">
                             <a class="nav-link disabled" href="#">Login</a>
@@ -39,8 +39,8 @@
                         </li>
                     </ul>
                 </div>
-                <div id="hauptkomponente" class="col row col-md-offset-2">
-                    <div class="box card col">
+                <div id="hauptkomponente" class="col-md row">
+                    <div class="box card col-md-3">
                         <div class="card-header">
                             Offen
                         </div>
@@ -49,7 +49,7 @@
                             <li class="list-group-item">Item 2</li>
                         </ul>
                     </div>
-                    <div class="box card col">
+                    <div class="box card col-md-3">
                         <div class="card-header">
                             Erledigt
                         </div>
@@ -58,7 +58,7 @@
                             <li class="list-group-item">Item 2</li>
                         </ul>
                     </div>
-                    <div class="box card col">
+                    <div class="box card col-md-3">
                         <div class="card-header">
                             Verschoben
                         </div>

@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604944523853</updated>
       <workItem from="1604944525621" duration="33581000" />
-      <workItem from="1605889601889" duration="9153000" />
+      <workItem from="1605889601889" duration="9330000" />
     </task>
     <task id="LOCAL-00001" summary="Hallo Welt">
       <created>1604949353367</created>
@@ -238,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605898721714</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="ToDos angelegt">
+      <created>1605898852128</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605898852128</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,10 +285,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="856" y="345" key="#SSH_Configurations/0.0.2560.1400@0.0.2560.1400" timestamp="1605042739980" />
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605898925929">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605898925929" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1605898102856">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1605898102856" />
+    <state x="918" y="461" key="MultipleFileMergeDialog" timestamp="1605898885176">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="918" y="461" key="MultipleFileMergeDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605898885176" />
     <state x="1114" y="623" key="NewPhpFileDialog" timestamp="1605890773548">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -294,11 +309,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605890718801" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1605898723852">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1605898853530">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="523" y="255" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605897266873" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605898723852" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605898853530" />
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604950729640">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

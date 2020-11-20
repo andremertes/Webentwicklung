@@ -10,11 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="776229a6-35e9-4175-a91d-8015d9602b9c" name="Default Changelist" comment="Hallo Welt">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Webentwicklung.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Webentwicklung.iml" afterDir="false" />
+    <list default="true" id="776229a6-35e9-4175-a91d-8015d9602b9c" name="Default Changelist" comment="ToDos angelegt">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604944523853</updated>
       <workItem from="1604944525621" duration="33581000" />
-      <workItem from="1605889601889" duration="1244000" />
+      <workItem from="1605889601889" duration="6540000" />
     </task>
     <task id="LOCAL-00001" summary="Hallo Welt">
       <created>1604949353367</created>
@@ -187,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605042889455</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Hallo Welt">
+      <created>1605890898721</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1605890898721</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +214,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hallo Welt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hallo Welt" />
+    <MESSAGE value="ToDos angelegt" />
+    <option name="LAST_COMMIT_MESSAGE" value="ToDos angelegt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="358" key="#Deployment" timestamp="1605042744765">
@@ -218,6 +226,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="358" width="816" height="729" key="#Intentions/0.0.2560.1400@0.0.2560.1400" timestamp="1605890149739" />
+    <state x="957" y="381" key="#Options" timestamp="1605891447364">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="957" y="381" key="#Options/0.0.2560.1400@0.0.2560.1400" timestamp="1605891447364" />
     <state x="856" y="345" key="#SSH_Configurations" timestamp="1605042739980">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -238,10 +250,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605890718801" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1605042895126">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1605890907525">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605042895126" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605890907525" />
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604950729640">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

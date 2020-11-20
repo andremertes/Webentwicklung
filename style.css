@@ -1,0 +1,13 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.box {
+    margin: 0 5px 0 5px;
+}

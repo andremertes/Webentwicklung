@@ -3,7 +3,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8" />
-    <title>Login</title>
+    <title>Registrieren</title>
     <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.5.0/dist/css/bootstrap.min.css" type="text/css" />
     <script src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://unpkg.com/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -17,7 +17,7 @@
 <body>
 <div class="container container-fluid">
     <div class="jumbotron text-center">
-        <h1>Aufgabenplaner: Login</h1>
+        <h1>Aufgabenplaner: Registrierung</h1>
     </div>
     <div class="row">
         <div class="col-md-3"></div>
@@ -30,15 +30,30 @@
                 <div class="form-group">
                     <label for="InputPassword1">Passwort</label>
                     <input type="password" placeholder="Passwort" class="form-control" id="InputPassword1">
+                    <small id="emailHelp" class="form-text text-muted">Sichere Passw&ouml;rter haben mindestens 8 Zeichen, Groß- und Kleinschreibung, Zahlen und Sonderzeichen. Bitte wählen Sie ein nicht leicht zu erratendes Passwort!</small>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Passwort wiederholen" class="form-control" id="InputPassword2">
+                </div>
+                <label>Wohnort</label>
+                <div class="form-row form-group">
+                    <div class="col-7">
+                        <input type="text" class="form-control" placeholder="Stadt">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Land">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Postleitzahl">
+                    </div>
                 </div>
                 <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="Check1">
-                    <label class="form-check-label" for="Check1">Login Speichern</label>
+                    <input type="checkbox" class="form-check-input" id="Check2">
+                    <label class="form-check-label" for="Check2"><a href="#">AGB</a> und <a href="#">Datenschutzerkl&auml;rung</a> zustimmen</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="submit" class="btn btn-primary">Registrieren</button>
             </form>
-            <br /><p>Noch kein Account? <a href="register.php">Hier registrieren</a>!</p>
-            <br /><p>Da der Login technisch noch nicht realisiert wurde, <a href="projects.php">hier &uuml;berspringen</a>.</p>
+            <br /><p>Noch kein Account? <a href="index.php">Zur&uuml;ck zum Login</a>.</p>
         </div>
     </div>
 </div>

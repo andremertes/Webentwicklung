@@ -38,8 +38,8 @@
                     <div class="card">
                         <div class="card-header">Offen</div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Item 1</li>
-                            <li class="list-group-item">Item 2</li>
+                            <li class="list-group-item">HTML-Datei erstellen</li>
+                            <li class="list-group-item">CSS-Datei erstellen</li>
                         </ul>
                     </div>
                 </div>
@@ -47,8 +47,7 @@
                     <div class="card">
                         <div class="card-header">Erledigt</div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Item 1</li>
-                            <li class="list-group-item">Item 2</li>
+                            <li class="list-group-item">Kaffee trinken</li>
                         </ul>
                     </div>
                 </div>
@@ -56,8 +55,8 @@
                     <div class="card">
                         <div class="card-header">Verschoben</div>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Item 1</li>
-                            <li class="list-group-item">Item 2</li>
+                            <li class="list-group-item">Schlafen gehen</li>
+                            <li class="list-group-item">F&uuml;r die Uni lernen</li>
                         </ul>
                     </div>
                 </div>

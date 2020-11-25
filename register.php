@@ -44,16 +44,16 @@
                         <input type="text" class="form-control" placeholder="Land">
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Postleitzahl">
+                        <input type="text" class="form-control" placeholder="PLZ">
                     </div>
                 </div>
                 <div class="form-group form-check">
                     <input type="checkbox" class="form-check-input" id="Check2">
-                    <label class="form-check-label" for="Check2"><a href="#">AGB</a> und <a href="#">Datenschutzerkl&auml;rung</a> zustimmen</label>
+                    <label class="form-check-label" for="Check2"><a href="#">AGB</a> und <a href="#">Datenschutzerkl&auml;rung</a> zustimmen *</label>
                 </div>
                 <button type="submit" class="btn btn-primary">Registrieren</button>
             </form>
-            <br /><p>Noch kein Account? <a href="index.php">Zur&uuml;ck zum Login</a>.</p>
+            <br /><p>Hier geht es <a href="index.php">zur&uuml;ck zum Login</a>.</p>
         </div>
     </div>
 </div>

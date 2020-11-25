@@ -84,11 +84,15 @@
                                 <option value="1">Tolles Projekt</option>
                                 <option value="2">Bl&ouml;des Projekt</option>
                                 <option value="3">Geheimes Projekt</option>
-                            </select><br />
+                            </select>
+                        </div>
+                        <div class="form-group">
                             <label for="NeuName">Bezeichnung des Reiters</label>
                             <input type="text" id="NeuName" class="form-control" placeholder="Reiter"><br />
+
                             <label for="NeuDesc">Beschreibung</label>
-                            <textarea id="NeuDesc" class="form-control my-1 mr-sm-2" placeholder="Beschreibung" rows="3"></textarea>
+                            <textarea id="NeuDesc" class="form-control my-1 mr-sm-2 mb-3" placeholder="Beschreibung" rows="3"></textarea>
+
                             <button type="submit" class="btn btn-primary my-1">Speichern</button> &nbsp;
                             <button type="submit" class="btn btn-info my-1">Reset</button>
                         </div>

@@ -53,7 +53,7 @@
                                 <td>me@andremertes.de</td>
                                 <td>
                                     <div class="custom-control">
-                                        <select class="custom-select my-1 mr-sm-2 mb-3" id="ProjectU1">
+                                        <select class="custom-select" id="ProjectU1">
                                             <option value="1">Tolles Projekt</option>
                                             <option value="2">Bl&ouml;des Projekt</option>
                                             <option selected>Geheimes Projekt</option>
@@ -70,7 +70,7 @@
                                 <td>jd@andremertes.de</td>
                                 <td>
                                     <div class="custom-control">
-                                        <select class="custom-select my-1 mr-sm-2 mb-3" id="ProjectU2">
+                                        <select class="custom-select" id="ProjectU2">
                                             <option selected>Tolles Projekt</option>
                                             <option value="2">Bl&ouml;des Projekt</option>
                                             <option value="3">Geheimes Projekt</option>
@@ -93,7 +93,7 @@
                             <label for="NeuName">Name</label>
                             <input type="text" id="NeuName" class="form-control" placeholder="Name"><br />
                             <label for="NeuDesc">E-Mail</label>
-                            <input type="text" id="NeuMail" class="form-control" placeholder="E-Mail"><br />
+                            <input type="text" id="NeuMail" class="form-control" placeholder="E-Mail">
                         </div>
                         <div class="form-group">
                             <label for="InputPassword1">Passwort</label>

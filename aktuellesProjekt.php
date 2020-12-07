@@ -38,6 +38,10 @@
 
                 <div class="row">
 
+                    <?php include ("function/todoliste.php"); ?>
+
+                    <!--
+
                     <div class="col-lg">
                         <div class="card">
                             <div class="card-header">Offen</div>
@@ -66,6 +70,8 @@
                             </ul>
                         </div>
                     </div>
+
+                    -->
 
                 </div>
 

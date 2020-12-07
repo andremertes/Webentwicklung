@@ -50,56 +50,10 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td scope="row">HTML-Datei erstellen</td>
-                                    <td>HTML-Datei erstellen</td>
-                                    <td>Offen</td>
-                                    <td>John Doe</td>
-                                    <td class="text-right">
-                                        <button type="button" class="btn btn-link"><i class="far fa-edit"></i></button>
-                                        <button type="button" class="btn btn-link"><i class="far fa-trash-alt"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">CSS-Datei erstellen</td>
-                                    <td>CSS-Datei erstellen</td>
-                                    <td>Offen</td>
-                                    <td>John Doe</td>
-                                    <td class="text-right">
-                                        <button type="button" class="btn btn-link"><i class="far fa-edit"></i></button>
-                                        <button type="button" class="btn btn-link"><i class="far fa-trash-alt"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">Schlafen gehen</td>
-                                    <td>Schlafen gehen</td>
-                                    <td>Verschoben</td>
-                                    <td>A.M.</td>
-                                    <td class="text-right">
-                                        <button type="button" class="btn btn-link"><i class="far fa-edit"></i></button>
-                                        <button type="button" class="btn btn-link"><i class="far fa-trash-alt"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">Kaffee trinken</td>
-                                    <td>Kaffee trinken</td>
-                                    <td>Erledigt</td>
-                                    <td>A.M.</td>
-                                    <td class="text-right">
-                                        <button type="button" class="btn btn-link"><i class="far fa-edit"></i></button>
-                                        <button type="button" class="btn btn-link"><i class="far fa-trash-alt"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td scope="row">F&uuml;r die Uni lernen</td>
-                                    <td>F&uuml;r die Uni lernen</td>
-                                    <td>Verschoben</td>
-                                    <td>John Doe</td>
-                                    <td class="text-right">
-                                        <button type="button" class="btn btn-link"><i class="far fa-edit"></i></button>
-                                        <button type="button" class="btn btn-link"><i class="far fa-trash-alt"></i></button>
-                                    </td>
-                                </tr>
+
+                                <!-- Tabelle -->
+                                <?php include ("function/aufgabenliste.php")?>
+
                                 </tbody>
                             </table>
 

@@ -48,6 +48,11 @@
                         </tr>
                         </thead>
                         <tbody>
+
+                        <!-- Tabelle -->
+                        <?php include ("function/reiterliste.php")?>
+
+                        <!--
                         <tr>
                             <th scope="row">Offen</th>
                             <td>Dinge, die erledigt werden m&uuml;ssen</td>
@@ -72,6 +77,8 @@
                                 <button type="button" class="btn btn-link"><i class="far fa-trash-alt"></i></button>
                             </td>
                         </tr>
+                        -->
+
                         </tbody>
                     </table>
 

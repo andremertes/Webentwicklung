@@ -50,40 +50,10 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <th scope="row">A.M.</th>
-                                    <td>me@andremertes.de</td>
-                                    <td>
-                                        <div class="custom-control">
-                                            <select class="custom-select" id="ProjectU1">
-                                                <option value="1">Tolles Projekt</option>
-                                                <option value="2">Bl&ouml;des Projekt</option>
-                                                <option selected>Geheimes Projekt</option>
-                                            </select>
-                                        </div>
-                                    </td>
-                                    <td class="text-right">
-                                        <button type="button" class="btn btn-link"><i class="far fa-edit"></i></button>
-                                        <button type="button" class="btn btn-link"><i class="far fa-trash-alt"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">John Doe</th>
-                                    <td>jd@andremertes.de</td>
-                                    <td>
-                                        <div class="custom-control">
-                                            <select class="custom-select" id="ProjectU2">
-                                                <option selected>Tolles Projekt</option>
-                                                <option value="2">Bl&ouml;des Projekt</option>
-                                                <option value="3">Geheimes Projekt</option>
-                                            </select>
-                                        </div>
-                                    </td>
-                                    <td class="text-right">
-                                        <button type="button" class="btn btn-link"><i class="far fa-edit"></i></button>
-                                        <button type="button" class="btn btn-link"><i class="far fa-trash-alt"></i></button>
-                                    </td>
-                                </tr>
+
+                                <!-- Tabelle -->
+                                <?php include ("function/mitgliederliste.php")?>
+
                                 </tbody>
                             </table>
 

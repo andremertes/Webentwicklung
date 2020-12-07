@@ -44,6 +44,6 @@ for ( $j ; $j < $i ; $j++ ){
         echo '<tr><td>'.($todos[$j]['aufgaben'][$l]).'</td></tr>';
     }
     echo '</tbody></table></div></div>';
-};
+}
 
 ?>

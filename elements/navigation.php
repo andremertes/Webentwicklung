@@ -1,12 +1,12 @@
 <div id="sidebar" class="col-lg-2">
     <ul class="list-group">
-        <li class="list-group-item list-group-item-action"><a href="index.php">Login</a></li>
-        <li class="list-group-item list-group-item-action <?php if($name=="projekte"){echo "active";} ?>"><a href="projekte.php" style="color: <?php if($name=="projekte"){echo "white";} ?>">Projekte</a></li>
-        <li class="list-group-item list-group-item-action <?php if($name=="aktuellesProjekt"){echo "active";} ?>"><a href="aktuellesProjekt.php" style="color: <?php if($name=="aktuellesProjekt"){echo "white";} ?>">Aktuelles Projekt</a></li>
+        <a class="list-group-item list-group-item-action" href="index.php">Login</a>
+        <a class="list-group-item list-group-item-action <?php if($name=="projekte"){echo "active";} ?>" href="projekte.php">Projekte</a>
+        <a class="list-group-item list-group-item-action <?php if($name=="aktuellesProjekt"){echo "active";} ?>" href="aktuellesProjekt.php">Aktuelles Projekt</a>
         <ul>
-            <li class="list-group-item list-group-item-action <?php if($name=="reiter"){echo "active";} ?>"><a href="reiter.php" style="color: <?php if($name=="reiter"){echo "white";} ?>">Reiter</a></li>
-            <li class="list-group-item list-group-item-action <?php if($name=="aufgaben"){echo "active";} ?>"><a href="aufgaben.php" style="color: <?php if($name=="aufgaben"){echo "white";} ?>">Aufgaben</a></li>
-            <li class="list-group-item list-group-item-action <?php if($name=="personen"){echo "active";} ?>"><a href="personen.php" style="color: <?php if($name=="personen"){echo "white";} ?>">Mitglieder</a></li>
+            <a class="list-group-item list-group-item-action <?php if($name=="reiter"){echo "active";} ?>" href="reiter.php">Reiter</a>
+            <a class="list-group-item list-group-item-action <?php if($name=="aufgaben"){echo "active";} ?>" href="aufgaben.php">Aufgaben</a>
+            <a class="list-group-item list-group-item-action <?php if($name=="personen"){echo "active";} ?>" href="personen.php">Mitglieder</a>
         </ul>
     </ul>
 </div>

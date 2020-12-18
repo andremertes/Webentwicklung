@@ -9,16 +9,7 @@
 
     <title>Reiter</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.5.0/dist/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" type="text/css" />
-
-    <link rel="stylesheet" href="style.css" type="text/css" />
-
-    <link rel="shortcut icon" type="image/x-icon" href="img/icon.svg" />
-
-    <script src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"></script>
-    <script src="https://unpkg.com/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <?php include ("elements/head.php") ?>
 
 </head>
 <body>
@@ -26,7 +17,7 @@
     <div class="container container-fluid">
 
         <!-- Header -->
-        <?php include ("elements/header.php") ?>
+        <?php include ("elements/jumbo.php") ?>
 
         <div class="row">
 
@@ -51,33 +42,6 @@
 
                         <!-- Tabelle -->
                         <?php include ("function/reiterliste.php")?>
-
-                        <!--
-                        <tr>
-                            <th scope="row">Offen</th>
-                            <td>Dinge, die erledigt werden m&uuml;ssen</td>
-                            <td class="text-right">
-                                <button type="button" class="btn btn-link"><i class="far fa-edit"></i></button>
-                                <button type="button" class="btn btn-link"><i class="far fa-trash-alt"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Erledigt</th>
-                            <td>Dinge, die erledigt sind</td>
-                            <td class="text-right">
-                                <button type="button" class="btn btn-link"><i class="far fa-edit"></i></button>
-                                <button type="button" class="btn btn-link"><i class="far fa-trash-alt"></i></button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Verschoben</th>
-                            <td>Dinge, die sp&auml;ter erledigt werden</td>
-                            <td class="text-right">
-                                <button type="button" class="btn btn-link"><i class="far fa-edit"></i></button>
-                                <button type="button" class="btn btn-link"><i class="far fa-trash-alt"></i></button>
-                            </td>
-                        </tr>
-                        -->
 
                         </tbody>
                     </table>

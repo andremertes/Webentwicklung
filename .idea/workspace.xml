@@ -10,27 +10,33 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="776229a6-35e9-4175-a91d-8015d9602b9c" name="Default Changelist" comment="Blatt 3 - Aufgabe 2 fertig">
-      <change afterPath="$PROJECT_DIR$/elements/head.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/jumbo.php" afterDir="false" />
+    <list default="true" id="776229a6-35e9-4175-a91d-8015d9602b9c" name="Default Changelist" comment="Codigniter-Vorbereitung">
+      <change afterPath="$PROJECT_DIR$/app/Controllers/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aktuellesProjekt.php" beforeDir="false" afterPath="$PROJECT_DIR$/aktuellesProjekt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aufgaben.php" beforeDir="false" afterPath="$PROJECT_DIR$/aufgaben.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/elements/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personen.php" beforeDir="false" afterPath="$PROJECT_DIR$/personen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekte.php" beforeDir="false" afterPath="$PROJECT_DIR$/projekte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registrieren.php" beforeDir="false" afterPath="$PROJECT_DIR$/registrieren.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/reiter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aktuellesProjekt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aufgaben.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/head.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/jumbo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/navigation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/aufgabenliste.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/mitgliederliste.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/reiterliste.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/todoliste.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personen.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekte.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registrieren.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reiter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/codeigniter/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -55,12 +61,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/lb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Config/App.php" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -93,7 +99,13 @@
       <workItem from="1607500394681" duration="596000" />
       <workItem from="1607637328132" duration="6000" />
       <workItem from="1607971677968" duration="5528000" />
-      <workItem from="1608313524188" duration="4339000" />
+      <workItem from="1608313524188" duration="5407000" />
+      <workItem from="1608325706271" duration="380000" />
+      <workItem from="1608326140209" duration="2496000" />
+      <workItem from="1608328903291" duration="235000" />
+      <workItem from="1608329523388" duration="4029000" />
+      <workItem from="1608335513184" duration="124000" />
+      <workItem from="1608372434623" duration="8456000" />
     </task>
     <task id="LOCAL-00001" summary="Hallo Welt">
       <created>1604949353367</created>
@@ -361,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607376628465</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Codigniter-Vorbereitung">
+      <created>1608323223571</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1608323223571</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,13 +406,14 @@
     <MESSAGE value="Aufgabe 2 komplett fertiggestellt" />
     <MESSAGE value="Blatt 3 - Aufgabe 1 fertig" />
     <MESSAGE value="Blatt 3 - Aufgabe 2 fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Blatt 3 - Aufgabe 2 fertig" />
+    <MESSAGE value="Codigniter-Vorbereitung" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codigniter-Vorbereitung" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="358" key="#Deployment" timestamp="1606860561532">
+    <state x="872" y="358" key="#Deployment" timestamp="1608382987610">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="358" key="#Deployment/0.0.2560.1400@0.0.2560.1400" timestamp="1606860561532" />
+    <state x="872" y="358" key="#Deployment/0.0.2560.1400@0.0.2560.1400" timestamp="1608382987610" />
     <state x="872" y="358" width="816" height="729" key="#Intentions" timestamp="1605890149739">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -414,31 +434,35 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1608322326295" />
-    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1606724338876">
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1608327377329">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1606724338876" />
+    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1608327377329" />
     <state x="918" y="461" key="MultipleFileMergeDialog" timestamp="1605898885176">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="918" y="461" key="MultipleFileMergeDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605898885176" />
-    <state x="1114" y="623" key="NewPhpFileDialog" timestamp="1608322264576">
+    <state x="828" y="423" key="NewPhpClassDialog" timestamp="1608387481050">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1114" y="623" key="NewPhpFileDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1608322264576" />
+    <state x="828" y="423" key="NewPhpClassDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1608387481050" />
+    <state x="1114" y="623" key="NewPhpFileDialog" timestamp="1608385844111">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1114" y="623" key="NewPhpFileDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1608385844111" />
     <state x="1531" y="406" key="RollbackChangesDialog" timestamp="1605029975618">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1531" y="406" key="RollbackChangesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605029975618" />
-    <state x="781" y="345" key="SettingsEditor" timestamp="1605890718801">
+    <state x="1175" y="373" key="SettingsEditor" timestamp="1608382128544">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605890718801" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1607376630143">
+    <state x="1175" y="373" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1608382128544" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1608323226504">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="523" y="255" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605897266873" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1607376630143" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1608323226504" />
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604950729640">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

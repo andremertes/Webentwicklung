@@ -1,10 +1,16 @@
 <?php namespace App\Controllers;
 
+use CodeIgniter\Controller;
+use CodeIgniter\Exceptions\PageNotFoundException;
+
 class App extends BaseController
 {
-    public function index()
+
+    public function hey()
     {
-        return view('welcome_message');
+
+        header("Location: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+
     }
 
     //--------------------------------------------------------------------

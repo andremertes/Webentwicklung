@@ -27,8 +27,8 @@
 
             </form>
 
-            <br /><p>Noch kein Account? <?php echo anchor('registrieren', 'Hier Registrieren!'); ?></p>
-            <br /><p>Da der Login technisch noch nicht realisiert wurde, <?php echo anchor('projekte', 'Hier &uuml;berspringen'); ?>.</p>
+            <br /><p>Noch kein Account? <a href="<?php echo $baseURL.'registrieren'; ?>">Jetzt einen Account anlegen!</a></p>
+            <br /><p>Da der Login technisch noch nicht realisiert wurde, <a href="<?php echo $baseURL.'projekte'; ?>">hier &uuml;berspringen</a>.</p>
 
         </div>
 

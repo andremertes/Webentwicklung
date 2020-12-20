@@ -34,7 +34,7 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Registrieren</button>
                 </form>
-                <br /><p>Hier geht es <?php echo anchor('', 'zur&uuml;ck zum Login'); ?>.</p>
+                <br /><p>Hier geht es <a href="<?php echo $baseURL.'/'; ?>">zur&uuml;ck zum Login</a>.</p>
             </div>
         </div>
 

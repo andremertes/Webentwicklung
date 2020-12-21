@@ -10,7 +10,6 @@
                                 <th scope="col">Aufgabenbezeichnung</th>
                                 <th scope="col">Beschreibung der Aufgabe</th>
                                 <th scope="col">Reiter</th>
-                                <th scope="col">Zust&auml;ndig</th>
                                 <th scope="col"></th>
                             </tr>
                             </thead>
@@ -21,7 +20,6 @@
                                     <td><?= $aufgabe['name'] ?></td>
                                     <td><?= $aufgabe['beschreibung'] ?></td>
                                     <td><?= $aufgabe['reiterID'] ?></td>
-                                    <td><?= $aufgabe['erstellerID'] ?></td>
                                     <td class="text-right">
                                         <button type="button" class="btn btn-link"><i class="far fa-edit"></i></button>
                                         <button type="button" class="btn btn-link"><i class="far fa-trash-alt"></i></button>

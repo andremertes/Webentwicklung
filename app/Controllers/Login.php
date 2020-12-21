@@ -1,25 +1,44 @@
 <?php namespace App\Controllers;
 
+use App\Models\PersonenModel;
 use CodeIgniter\Controller;
-use CodeIgniter\Exceptions\PageNotFoundException;
 
 class Login extends BaseController
 {
 
-    public function login($page = 'login')
+
+    public function __construct(){
+        $this->PersonenModel = new PersonenModel();
+    }
+
+    public function index()
     {
-        if ( !is_file(APPPATH.'Views/pages/'.$page.'.php'))
+        if (isset($_POST['username']) && isset($_POST['password']))
         {
-            // Keine Datei gefunden -> 404 Fehler
-            throw new PageNotFoundException($page);
+            if ($this->PersonenModel->login() != NULL)
+            {
+                $passwort = $this->PersonenModel->login()['password'];
+                if (password_verify($_POST['password'], $passwort))
+                {
+                    $this->session->set('loggedin', TRUE);
+                    return redirect()->to(base_url().'/personen');
+                }
+            }
         }
 
         $data['title'] = "Login";
 
-        echo view('templates/head', $data);
+        echo view('templates/head');
         echo view('templates/jumbo', $data);
-        echo view('pages/'.$page, $data);
+        echo view('login');
         echo view('templates/foot');
+
+    }
+
+    public function logout()
+    {
+        $this->session->destroy();
+        return redirect()->to(base_url().'/login');
     }
 
     //--------------------------------------------------------------------

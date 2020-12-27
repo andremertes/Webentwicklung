@@ -17,11 +17,11 @@ class Login extends BaseController
         {
             if ($this->PersonenModel->login() != NULL)
             {
-                $passwort = $this->PersonenModel->login()['password'];
-                if (password_verify($_POST['password'], $passwort))
+                $password = $this->PersonenModel->login()['password'];
+                if (password_verify($_POST['password'], $password))
                 {
                     $this->session->set('loggedin', TRUE);
-                    return redirect()->to(base_url().'/personen');
+                    return redirect()->to(base_url().'/personen/list_dyn');
                 }
             }
         }
@@ -31,6 +31,7 @@ class Login extends BaseController
         echo view('templates/head');
         echo view('templates/jumbo', $data);
         echo view('login');
+        //echo view('pages/pwhasher');
         echo view('templates/foot');
 
     }

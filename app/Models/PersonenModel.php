@@ -7,7 +7,7 @@ class PersonenModel extends Model
     public function login()
     {
         $this->personen = $this->db->table('mitglieder');
-        $this->personen->select('password');
+        $this->personen->select('mitglieder.password');
         $this->personen->where('mitglieder.username', $_POST['username']);
         $result = $this->personen->get();
 
@@ -19,7 +19,7 @@ class PersonenModel extends Model
         $this->personen = $this->db->table('mitglieder');
         $this->personen->select('*');
          if ($person_id != NULL){
-             $this->personen->where('personen.id', $person_id);
+             $this->personen->where('mitglieder.id', $person_id);
          }
          $this->personen->orderBy('username');
          $result = $this->personen->get();
@@ -36,7 +36,7 @@ class PersonenModel extends Model
         $this->personen->select('*');
 
         if ($person_id != NULL){
-            $this->personen->where('personen.id', $person_id);
+            $this->personen->where('mitglieder.id', $person_id);
         }
 
         $this->personen->orderBy('username');
@@ -58,7 +58,7 @@ class PersonenModel extends Model
     public function updatePerson($person_id = null)
     {
         $this->personen = $this->db->table('mitglieder');
-        $this->personen->where('personen.id', $person_id);
+        $this->personen->where('mitglieder.id', $person_id);
         $this->personen->update(array('username' => $_POST['username'], 'email' => $_POST['email'], 'stadt' => $_POST['stadt'], 'land' => $_POST['land']));
     }
 

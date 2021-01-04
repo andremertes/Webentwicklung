@@ -13,17 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="776229a6-35e9-4175-a91d-8015d9602b9c" name="Default Changelist" comment="CI-II (ii)">
-      <change afterPath="$PROJECT_DIR$/app/Views/personen/personen.php" afterDir="false" />
+    <list default="true" id="776229a6-35e9-4175-a91d-8015d9602b9c" name="Default Changelist" comment="CI-II (finito)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Config/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controllers/Personen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Personen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/PersonenModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/PersonenModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/personen/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/personen/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/personen/list_dyn.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/personen/list_dyn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/templates/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/templates/navigation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +99,7 @@
       <workItem from="1608508988957" duration="337000" />
       <workItem from="1608538297533" duration="17621000" />
       <workItem from="1609316978904" duration="599000" />
-      <workItem from="1609658973065" duration="23008000" />
+      <workItem from="1609658973065" duration="23407000" />
     </task>
     <task id="LOCAL-00001" summary="Hallo Welt">
       <created>1604949353367</created>
@@ -424,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609056680071</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="CI-II (finito)">
+      <created>1609727203455</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1609727203455</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +455,8 @@
     <MESSAGE value="CI-I" />
     <MESSAGE value="CI-II (i)" />
     <MESSAGE value="CI-II (ii)" />
-    <option name="LAST_COMMIT_MESSAGE" value="CI-II (ii)" />
+    <MESSAGE value="CI-II (finito)" />
+    <option name="LAST_COMMIT_MESSAGE" value="CI-II (finito)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="358" key="#Deployment" timestamp="1608418192838">
@@ -515,11 +515,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1175" y="373" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1608544780186" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1609056684167">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1609727209282">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="523" y="255" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605897266873" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1609056684167" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1609727209282" />
     <state x="1097" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604950729640">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

@@ -7,13 +7,14 @@ class PersonenModel extends Model
     public function login()
     {
         $this->personen = $this->db->table('mitglieder');
-        $this->personen->select('mitglieder.password');
+        $this->personen->select('*');
         $this->personen->where('mitglieder.username', $_POST['username']);
         $result = $this->personen->get();
 
         return $result->getRowArray();
     }
 
+    /*
     public function getPersonenselect($person_id = NULL)
     {
         $this->personen = $this->db->table('mitglieder');
@@ -29,6 +30,7 @@ class PersonenModel extends Model
          else
              return $result->getResultArray();
     }
+    */
 
     public function getPersonen($person_id = NULL)
     {
@@ -52,14 +54,26 @@ class PersonenModel extends Model
     public function createPerson()
     {
         $this->personen = $this->db->table('mitglieder');
-        $this->personen->insert(array('username' => $_POST['username'], 'email' => $_POST['email'], 'stadt' => $_POST['stadt'], 'land' => $_POST['land']));
+
+        $password = $_POST['password'];
+        $password_neu = password_hash($password, PASSWORD_DEFAULT, ['cost' => 10]);
+
+        $this->personen->insert(array('username' => $_POST['username'], 'email' => $_POST['email'], 'password' => $password_neu, 'stadt' => $_POST['stadt'], 'postleitzahl' => $_POST['postleitzahl'], 'land' => $_POST['land']));
     }
 
     public function updatePerson($person_id = null)
     {
         $this->personen = $this->db->table('mitglieder');
         $this->personen->where('mitglieder.id', $person_id);
-        $this->personen->update(array('username' => $_POST['username'], 'email' => $_POST['email'], 'stadt' => $_POST['stadt'], 'land' => $_POST['land']));
+
+        if ($_POST['password'] != null) {
+            $password = $_POST['password'];
+            $password_neu = password_hash($password, PASSWORD_DEFAULT, ['cost' => 10]);
+
+            $this->personen->update(array('username' => $_POST['username'], 'email' => $_POST['email'], 'password' => $password_neu, 'stadt' => $_POST['stadt'], 'postleitzahl' => $_POST['postleitzahl'], 'land' => $_POST['land']));
+        } else {
+            $this->personen->update(array('username' => $_POST['username'], 'email' => $_POST['email'], 'stadt' => $_POST['stadt'], 'postleitzahl' => $_POST['postleitzahl'], 'land' => $_POST['land']));
+        }
     }
 
     public function deletePerson($person_id = null)

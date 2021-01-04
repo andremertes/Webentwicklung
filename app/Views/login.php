@@ -19,7 +19,7 @@
         </form>
 
         <br /><p>Noch kein Account? <a href="<?php echo $baseURL.'/registrieren'; ?>">Jetzt einen Account anlegen!</a></p>
-        <br /><p>Wegen Blatt 5 den Login <a href="<?php echo $baseURL.'/projekte'; ?>">hier</a> &uuml;berspringen.</p>
+        <br /><p>F&uuml;r Blatt 5 den Login <a href="<?php echo $baseURL.'/projekte'; ?>">hier</a> &uuml;berspringen.</p>
 
     </div>
     <div class="col-md-3"></div>

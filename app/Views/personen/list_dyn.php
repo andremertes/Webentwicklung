@@ -27,24 +27,31 @@
                             <th data-sortable="true">ID</th>
                             <th data-sortable="true">Benutzername</th>
                             <th data-sortable="true">E-Mail</th>
-                            <th>Passwort</th>
+                            <!-- <th>Passwort</th> -->
                             <th data-sortable="true">Stadt</th>
                             <th data-sortable="true">PLZ</th>
                             <th data-sortable="true">Land</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <? foreach ($person as $item): ?>
+                        <? foreach ($personen as $item): ?>
                             <tr>
                                 <td><?= $item['id'] ?></td>
                                 <td><?= $item['username'] ?></td>
                                 <td><?= $item['email'] ?></td>
-                                <td><?= $item['password'] ?></td>
+                                <!-- <td><?//= $item['password'] ?></td> -->
                                 <td><?= $item['stadt'] ?></td>
                                 <td><?= $item['postleitzahl'] ?></td>
                                 <td><?= $item['land'] ?></td>
                             </tr>
                         <? endforeach; ?>
+
+                        <?php
+                        //echo '<pre>';
+                        //var_dump($personen);
+                        //echo '</pre>';
+                        ?>
+
                     </tbody>
                 </table>
             </div>

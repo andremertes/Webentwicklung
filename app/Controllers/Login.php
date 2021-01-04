@@ -20,8 +20,15 @@ class Login extends BaseController
                 $password = $this->PersonenModel->login()['password'];
                 if (password_verify($_POST['password'], $password))
                 {
-                    $this->session->set('loggedin', TRUE);
-                    return redirect()->to(base_url().'/personen/list_dyn');
+                    $userdata = array(
+                        'loggedin' => TRUE,
+                        'id' => $this->PersonenModel->login()['id'],
+                        'username' => $this->PersonenModel->login()['username'],
+                        'email' => $this->PersonenModel->login()['email'],
+                    );
+
+                    $this->session->set($userdata);
+                    return redirect()->to(base_url().'/personen/index_personen');
                 }
             }
         }

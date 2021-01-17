@@ -10,6 +10,7 @@ class Personen extends BaseController
     public function __construct()
     {
         $this->PersonenModel = new PersonenModel();
+        // $validation = \Config\Services::validation();
     }
 
     public function index($page = 'personen')
@@ -70,18 +71,33 @@ class Personen extends BaseController
             // Ist edit aufgerufen worden
             if (isset($_POST['btnSpeichern']) || isset($_POST['btnBestaetigen']) || isset($_POST['btnAbbrechen']))
             {
-                //var_dump($_POST);
 
                 // Person ändern
                 if (isset($_POST['btnSpeichern']))
                 {
-                    if ($_POST['PersonenID'] != null){
-                        $this->PersonenModel->updatePerson($_POST['PersonenID']);
+
+                    if($this->validation->run($_POST, 'personbearbeiten')){
+
+                        if ($_POST['PersonenID'] != null){
+                            $this->PersonenModel->updatePerson($_POST['PersonenID']);
+                        }
+                        // Person erstellen
+                        else{
+                            $this->PersonenModel->createPerson($_POST['PersonenID']);
+                        }
+
+                    } else {
+
+                        // Fehlermeldung generieren
+                        $data['personen'] = $_POST;
+                        $data['error'] = $this->validation->getErrors();
+                        echo view('personen/edit', $data);
+
+                        //var_dump($_POST);
+                        //var_dump($this->validation->getErrors());
+
                     }
-                    // Person erstellen
-                    else{
-                        $this->PersonenModel->createPerson($_POST['PersonenID']);
-                    }
+
                 }
                 // Person löschen
                 elseif (isset($_POST['btnBestaetigen'])){
@@ -90,7 +106,7 @@ class Personen extends BaseController
             }
 
             // Soll nur die Liste angezeigt werden (also alle Personen)
-            if (!(isset($_POST['btnBearbeiten']) || isset($_POST['btnNeu']) || isset($_POST['btnLoeschen'])))
+            if (!(isset($_POST['btnBearbeiten']) || isset($_POST['btnNeu']) || isset($_POST['btnLoeschen']) || isset($data['error'])))
             {
                 $data['personen'] = $this->PersonenModel->getPersonen();
                 echo view('personen/personen', $data);

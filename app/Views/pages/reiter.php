@@ -26,7 +26,7 @@
                     <?php endforeach; ?>
 
                     </tbody>
-                    </table>
+                </table>
 
                     <form>
 

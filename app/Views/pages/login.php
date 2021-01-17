@@ -14,12 +14,16 @@
                     <label for="passwort">Passwort</label>
                     <input type="password" class="form-control" id="passwort" name="passwort" />
                 </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="checkDatenschutz" name="checkDatenschutz" value="option1" aria-label="Datenschutzbedingungen akzeptieren">
+                    <label for="checkDatenschutz">Datenschutzbedingungen akzeptieren</label>
+                </div>
                 <button id="btnsubmit" type="submit" class="btn btn-primary">Einloggen</button>
             </div>
         </form>
 
-        <br /><p>Noch kein Account? <a href="<?php echo $baseURL.'registrieren'; ?>">Jetzt einen Account anlegen!</a></p>
-        <br /><p>Da der Login technisch noch nicht realisiert wurde, <a href="<?php echo $baseURL.'projekte'; ?>">hier &uuml;berspringen</a>.</p>
+        <br /><p>Noch kein Account? <a href="<?= base_url() ?>/registrieren">Jetzt einen Account anlegen!</a></p>
+        <br /><p>Da der Login technisch noch nicht realisiert wurde, <a href="<?= base_url() ?>/projekte">hier &uuml;berspringen</a>.</p>
 
     </div>
     <div class="col-md-3"></div>

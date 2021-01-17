@@ -14,48 +14,59 @@
                         <label for="username" class="col-sm-2 col-form-label">Benutzername</label>
                         <div class="col-sm-10">
                             <input type="hidden" id="PersonenID" name="PersonenID" value="<?= isset($personen['id']) ? $personen['id'] : ''; ?>">
-                            <input type="text" class="form-control" id="username" name="username" placeholder="Klaus" value="<?= $personen['username']; ?>" <?= isset($_POST['btnLoeschen']) ? 'disabled' : '' ?>>
+                            <input type="text" class="form-control <?php if(isset($error['username'])){ echo 'is-invalid';} ?>" id="username" name="username" placeholder="Klaus" value="<?= $personen['username']; ?>" <?= isset($_POST['btnLoeschen']) ? 'disabled' : '' ?>>
+                            <div class="invalid-feedback">
+                                <?= (isset($error['username']))?$error['username']:'' ?>
+                            </div>
                         </div>
                     </div>
 
                     <div class="form-group row">
                         <label for="email" class="col-sm-2 col-form-label">E-Mail</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="email" name="email" placeholder="bertigerbertjer@email.com" value="<?= $personen['email']; ?>" <?= isset($_POST['btnLoeschen']) ? 'disabled' : '' ?>>
+                            <input type="email" class="form-control <?php if(isset($error['email'])){ echo 'is-invalid';} ?>" id="email" name="email" placeholder="bertigerbertjer@email.com" value="<?= $personen['email']; ?>" <?= isset($_POST['btnLoeschen']) ? 'disabled' : '' ?>>
+                            <div class="invalid-feedback">
+                                <?= (isset($error['email']))?$error['email']:'' ?>
+                            </div>
                         </div>
                     </div>
 
-                    <?php
-                        if (isset($personen['id'])) {
-                            if ($sessionuserid == $personen['id'] || $_POST['btnNeu'] == TRUE) {
-                                echo '<div class="form-group row">
-                                        <label for="password" class="col-sm-2 col-form-label">Passwort</label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="password" name="password" placeholder="123istKeinSicheresPasswort!">
-                                        </div>
-                                      </div>';
-                            }
-                        } else {}
-                    ?>
+                    <?php if(isset($_POST['btnNeu']) || (isset($_POST['btnBearbeiten']) AND $sessionuserid == $personen['id'])): ?>
+                        <div class="form-group row">
+                            <label for="password" class="col-sm-2 col-form-label">Passwort</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="password" name="password" placeholder="123istKeinSicheresPasswort!">
+                            </div>
+                        </div>
+                    <?php endif; ?>
 
                     <div class="form-group row">
                         <label for="stadt" class="col-sm-2 col-form-label">Wohnort</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="stadt" name="stadt" placeholder="Wo wohnt Klaus?" value="<?= $personen['stadt']; ?>" <?= isset($_POST['btnLoeschen']) ? 'disabled' : '' ?>>
+                            <input type="text" class="form-control <?php if(isset($error['stadt'])){ echo 'is-invalid';} ?>" id="stadt" name="stadt" placeholder="Wo wohnt Klaus?" value="<?= $personen['stadt']; ?>" <?= isset($_POST['btnLoeschen']) ? 'disabled' : '' ?>>
+                            <div class="invalid-feedback">
+                                <?= (isset($error['stadt']))?$error['stadt']:'' ?>
+                            </div>
                         </div>
                     </div>
 
                     <div class="form-group row">
                         <label for="postleitzahl" class="col-sm-2 col-form-label">Postleitzahl</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="postleitzahl" name="postleitzahl" placeholder="50667" value="<?= $personen['postleitzahl']; ?>" <?= isset($_POST['btnLoeschen']) ? 'disabled' : '' ?>>
+                            <input type="number" class="form-control <?php if(isset($error['postleitzahl'])){ echo 'is-invalid';} ?>" id="postleitzahl" name="postleitzahl" placeholder="50667" value="<?= $personen['postleitzahl']; ?>" <?= isset($_POST['btnLoeschen']) ? 'disabled' : '' ?>>
+                            <div class="invalid-feedback">
+                                <?= (isset($error['postleitzahl']))?$error['postleitzahl']:'' ?>
+                            </div>
                         </div>
                     </div>
 
                     <div class="form-group row">
                         <label for="land" class="col-sm-2 col-form-label">Land</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="land" name="land" placeholder="Phantasialand" value="<?= $personen['land']; ?>" <?= isset($_POST['btnLoeschen']) ? 'disabled' : '' ?>>
+                            <input type="text" class="form-control <?php if(isset($error['land'])){ echo 'is-invalid';} ?>" id="land" name="land" placeholder="Phantasialand" value="<?= $personen['land']; ?>" <?= isset($_POST['btnLoeschen']) ? 'disabled' : '' ?>>
+                            <div class="invalid-feedback">
+                                <?= (isset($error['land']))?$error['land']:'' ?>
+                            </div>
                         </div>
                     </div>
 
@@ -74,17 +85,17 @@
                     <div class="row mt-4">
                         <div class="col-sm-8">
 
-                            <? if (isset($_POST['btnBearbeiten'])) : ?>
+                            <?php if (isset($_POST['btnBearbeiten']) || isset($error)) : ?>
                                 <button type="submit" class="btn btn-success mb-2 mr-2" name="btnSpeichern" id="btnSpeichern"><i class="far fa-save"></i>&nbsp;Speichern</button>
-                            <? endif ?>
+                            <?php endif ?>
 
-                            <? if (isset($_POST['btnNeu'])) : ?>
+                            <?php if (isset($_POST['btnNeu'])) : ?>
                                 <button type="submit" class="btn btn-success mb-2 mr-2" name="btnSpeichern" id="btnSpeichern"><i class="far fa-save"></i>&nbsp;Speichern</button>
-                            <? endif ?>
+                            <?php endif ?>
 
-                            <? if (isset($_POST['btnLoeschen'])) : ?>
+                            <?php if (isset($_POST['btnLoeschen'])) : ?>
                                 <button type="submit" class="btn btn-danger mb-2 mr-2" name="btnBestaetigen" id="btnBestaetigen"><i class="fas fa-trash"></i>&nbsp;L&ouml;schen</button>
-                            <? endif ?>
+                            <?php endif ?>
 
                             <button class="btn btn-primary mb-2" type="submit" name="btnAbbrechen" id="btnAbbrechen"><i class="fas fa-window-close"></i>&nbsp;Abbrechen</button>
 

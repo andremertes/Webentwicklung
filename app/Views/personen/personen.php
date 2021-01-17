@@ -25,7 +25,6 @@
                             <th data-sortable="true">ID</th>
                             <th data-sortable="true">Benutzername</th>
                             <th data-sortable="true">E-Mail</th>
-                            <!-- <th>Passwort</th> -->
                             <th data-sortable="true">Stadt</th>
                             <th data-sortable="true">PLZ</th>
                             <th data-sortable="true">Land</th>
@@ -33,12 +32,11 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <? foreach ($personen as $item): ?>
+                        <?php foreach ($personen as $item): ?>
                             <tr>
                                 <td><?= $item['id'] ?></td>
                                 <td><?= $item['username'] ?></td>
                                 <td><?= $item['email'] ?></td>
-                                <!-- <td><?//= $item['password'] ?></td> -->
                                 <td><?= $item['stadt'] ?></td>
                                 <td><?= $item['postleitzahl'] ?></td>
                                 <td><?= $item['land'] ?></td>
@@ -47,13 +45,13 @@
                                         <button type="submit" name="btnBearbeiten" id="btnBearbeiten" class="btn btn-link" value="<?= $item['id'] ?>"><i class="fas fa-edit"></i></button>
                                         <?php
                                             if ($sessionuserid != $item['id']) {
-                                                echo '<button type="submit" name="btnLoeschen" id="btnLoeschen" class="btn btn-link" value="<?= '.$item['id'].' ?>"><i class="fas fa-trash-alt"></i></button>';
+                                                echo '<button type="submit" name="btnLoeschen" id="btnLoeschen" class="btn btn-link" value="'.$item['id'].'"><i class="fas fa-trash-alt"></i></button>';
                                             }
                                         ?>
                                     </div>
                                 </td>
                             </tr>
-                        <? endforeach; ?>
+                        <?php endforeach; ?>
 
                         <?php
                         //echo '<pre>';

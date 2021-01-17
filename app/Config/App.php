@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://uni.andremertes.de/';
+	public $baseURL = 'http://localhost/Andre/Uni/Webentwicklung/public';
 
 	/*
 	|--------------------------------------------------------------------------

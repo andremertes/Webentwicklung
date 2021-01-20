@@ -22,8 +22,7 @@
             </div>
         </form>
 
-        <br /><p>Noch kein Account? <a href="<?= base_url() ?>/registrieren">Jetzt einen Account anlegen!</a></p>
-        <br /><p>Da der Login technisch noch nicht realisiert wurde, <a href="<?= base_url() ?>/projekte">hier &uuml;berspringen</a>.</p>
+        <br /><p>Noch kein Account? Kontaktiere bitte Andre Mertes f&uuml;r die Zugangsdaten!</p>
 
     </div>
     <div class="col-md-3"></div>

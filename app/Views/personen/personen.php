@@ -22,9 +22,9 @@
                            data-toolbar="#toolbar">
                         <thead align="left">
                         <tr>
-                            <th data-sortable="true">ID</th>
                             <th data-sortable="true">Benutzername</th>
                             <th data-sortable="true">E-Mail</th>
+                    <!--        <th data-sortable="true">Ist besch&auml;ftigt?</th>     -->
                             <th data-sortable="true">Stadt</th>
                             <th data-sortable="true">PLZ</th>
                             <th data-sortable="true">Land</th>
@@ -34,9 +34,9 @@
                         <tbody>
                         <?php foreach ($personen as $item): ?>
                             <tr>
-                                <td><?= $item['id'] ?></td>
                                 <td><?= $item['username'] ?></td>
                                 <td><?= $item['email'] ?></td>
+                        <!--        <td><input type="checkbox" disabled></td>       -->
                                 <td><?= $item['stadt'] ?></td>
                                 <td><?= $item['postleitzahl'] ?></td>
                                 <td><?= $item['land'] ?></td>

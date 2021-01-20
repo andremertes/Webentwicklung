@@ -32,8 +32,7 @@
             </div>
         </form>
 
-        <br /><p>Noch kein Account? <a href="<?= base_url() . '/registrieren/registrieren' ?>">Jetzt einen Account anlegen!</a></p>
-        <br /><p>F&uuml;r Blatt 5 den Login <a href="<?= base_url() . '/projekte/projekte' ?>">hier</a> &uuml;berspringen.</p>
+        <br /><p>Kein Account? Kontaktiere bitte <strong>Andre Mertes</strong> f&uuml;r einen Zugang!</p>
 
     </div>
     <div class="col-md-3"></div>

@@ -11,7 +11,7 @@
                                 <option value="0" disabled <?php if(isset($_SESSION['aktivesprojekt']) && ($_SESSION['aktivesprojekt'] != '0')){echo 'hidden';} else{echo 'selected';} ?> >- ausw&auml;hlen -</option>
 
                                 <?php foreach ($projekteliste as $projekt): ?>
-                                <option value="<?= $projekt['id'] ?>" <?php if(isset($_SESSION['aktivesprojekt'])){ set_select('projektID', $_SESSION['aktivesprojekt']); } ?>><?= $projekt['name'] ?></option>             <!-- ANZEIGEFEHLER!!! -->
+                                <option value="<?= $projekt['id'] ?>" <?php if(isset($_SESSION['aktivesprojekt'])){ set_select('projektID', $_SESSION['aktivesprojekt']); } ?>><?= $projekt['name'] ?></option>             <!-- ANZEIGEFEHLER!!! Es wird nicht das aktive Projekt angezeigt. Fehlersuche!!! -->
                                 <?php endforeach; ?>
 
                             </select>
@@ -39,7 +39,7 @@
                         </div>
 
                         <button type="submit" class="btn btn-success mb-2 mr-2" name="btnSpeichern" id="btnSpeichern"><i class="far fa-save"></i>&nbsp;Speichern</button>
-                        <button class="btn btn-info mb-2" type="submit" name="btnAbbrechen" id="btnAbbrechen"><i class="fas fa-window-close"></i>&nbsp;Abbrechen</button>
+                        <button class="btn btn-info mb-2" type="submit" name="btnAbbrechen" id="btnAbbrechen"><i class="fas fa-window-close"></i>&nbsp;Reset</button>
 
                         </p>
                     </form>

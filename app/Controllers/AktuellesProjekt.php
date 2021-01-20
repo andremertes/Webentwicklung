@@ -12,6 +12,7 @@ class AktuellesProjekt extends BaseController
     public function __construct(){
         $this->AufgabenModel = new AufgabenModel();
         $this->ProjekteModel = new ProjekteModel();
+        $this->ReiterModel = new ReiterModel();
     }
 
     public function aktuellesProjekt($page = 'aktuellesProjekt')
@@ -49,29 +50,23 @@ class AktuellesProjekt extends BaseController
             $data['sessionuserid'] = $this->session->get('id');
             $data['sessionusername'] = $this->session->get('username');
 
+            //$data['aufgabenliste'] = $aufgabenmodel->getData();
+            //$data['reiterliste'] = $reitermodel->getData();
 
-            $aufgabenmodel = new AufgabenModel();
-            $reitermodel = new ReiterModel();
-
-            $data['aufgabenliste'] = $aufgabenmodel->getData();
-            $data['reiterliste'] = $reitermodel->getData();
-
-
-            //$data['aufgabenliste'] = $this->AufgabenModel->getData();
-            //$data['reiterliste'] = $this->ReiterModel->getData();
-
-
+            $data['aufgabenliste'] = $this->AufgabenModel->getAufgaben();
+            $data['reiterliste'] = $this->ReiterModel->getReiter();
 
             //var_dump($_POST);
             echo view('templates/head', $data);
             echo view('templates/jumbo', $data);
 
-
             echo view('templates/navigation', $data);
 
 
-            echo view('pages/aktuellesProjekt', $data);
 
+
+
+            echo view('pages/aktuellesProjekt', $data);
 
             echo view('templates/foot');
         }

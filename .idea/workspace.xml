@@ -14,22 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="776229a6-35e9-4175-a91d-8015d9602b9c" name="Default Changelist" comment="CI-III 1-2">
-      <change afterPath="$PROJECT_DIR$/app/Views/aufgaben/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/AktuellesProjekt.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/AktuellesProjekt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/Aufgaben.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Aufgaben.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/Reiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Reiter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/AufgabenModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/AufgabenModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/PersonenModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/PersonenModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ReiterModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ReiterModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/pages/aktuellesProjekt.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/pages/aktuellesProjekt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/pages/aufgaben.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/aufgaben/aufgaben.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/pages/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/pages/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/pages/reiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/pages/reiter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/personen/personen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/personen/personen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/projekte/projekte.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/projekte/projekte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/templates/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/templates/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +106,7 @@
       <workItem from="1610524136894" duration="2546000" />
       <workItem from="1610783118199" duration="54042000" />
       <workItem from="1611062189330" duration="29232000" />
+      <workItem from="1618300601813" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="Hallo Welt">
       <created>1604949353367</created>
